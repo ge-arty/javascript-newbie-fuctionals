@@ -5,15 +5,15 @@ body {
   background-color: #330066;
 }
 .container {
-  width: 50%;
+  width: 70%;
   margin: 0 auto;
   border: 20px solid rgb(228, 226, 153);
-  margin-top: 150px;
+  margin-top: 50px;
   border-radius: 60px;
+  height: 920px;
 }
 .header {
   width: 100%;
-  max-width: 728px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,7 +38,6 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  margin-right: 20px;
   border: 8px solid rgb(228, 226, 153);
   cursor: pointer;
 }
@@ -51,16 +50,15 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding-top: 30px;
 }
-.main-counter-text {
+.main-text {
   font-size: 50px;
   font-weight: bold;
   font-family: sans-serif;
-  color: rgb(231, 229, 78);
-  margin-bottom: 40px;
+  color: rgb(204, 204, 134);
+  margin: 25px 0;
 }
-.main-counter-button {
+.main-button {
   position: relative;
   display: inline-block;
   cursor: pointer;
@@ -80,7 +78,7 @@ body {
   transition: transform 0.15s;
   transform-style: preserve-3d;
 }
-.main-counter-button::before {
+.main-button::before {
   position: absolute;
   content: "";
   width: 100%;
@@ -95,19 +93,30 @@ body {
   transform: translate3d(0, 0.75em, -1em);
   transition: transform 0.15s, box-shadow 0.15s;
 }
-.main-counter-button:hover {
+.main-button:hover {
   background: rgb(231, 216, 76);
   transform: translate(0, 0.25em);
 }
-.main-counter-button:hover::before {
+.main-button:hover::before {
   box-shadow: 0 0 0 2px #9e8f0b, 0 0.5em 0 0 #e4d65c;
   transform: translate3d(0, 0.5em, -1em);
 }
-.main-counter-button:active {
+.main-button:active {
   background: #faea5aea;
   transform: translate(0em, 0.75em);
 }
-.main-counter-button:active::before {
+.main-button:active::before {
   box-shadow: 0 0 0 2px #dbe67b, 0 0 #dbe465;
   transform: translate3d(0, 0, -1em);
+}
+@media (max-width: 1024px) {
+  .logo {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+  .container {
+    height: 990px;
+  }
 }
