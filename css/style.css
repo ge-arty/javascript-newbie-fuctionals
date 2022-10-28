@@ -5,10 +5,9 @@ body {
   background-color: #330066;
 }
 .container {
-  width: 40%;
+  width: 50%;
   margin: 0 auto;
   border: 20px solid rgb(228, 226, 153);
-  height: 60vh;
   margin-top: 150px;
   border-radius: 60px;
 }
@@ -22,20 +21,19 @@ body {
 .logo {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   padding-top: 20px;
   flex-wrap: wrap;
   max-width: 728px;
 }
 .icon {
-  width: 380px;
-  height: 120px;
-  padding-left: 50px;
+  max-width: 380px;
+  width: 100%;
 }
 .palette-btn {
-  width: 100px;
-  height: 100px;
+  width: 100%;
+  max-width: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -45,8 +43,8 @@ body {
   cursor: pointer;
 }
 .palette-icon {
-  width: 60px;
-  height: 60px;
+  max-width: 60px;
+  width: 100%;
 }
 .main {
   display: flex;
