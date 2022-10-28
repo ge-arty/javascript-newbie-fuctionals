@@ -1,0 +1,49 @@
+body {
+  max-width: 1920px;
+  margin: 0 auto;
+  width: 100%;
+  background-color: #330066;
+}
+.container {
+  width: 40%;
+  margin: 0 auto;
+  border: 20px solid white;
+  height: 60vh;
+  margin-top: 150px;
+  border-radius: 60px;
+}
+.header {
+  width: 100%;
+  max-width: 728px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  flex-wrap: wrap;
+  max-width: 728px;
+}
+.icon {
+  width: 380px;
+  height: 120px;
+  padding-left: 50px;
+}
+.palette-btn {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-right: 20px;
+  border: 8px solid black;
+}
+.palette-icon {
+  width: 60px;
+  height: 60px;
+}
