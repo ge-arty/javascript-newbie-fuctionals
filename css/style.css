@@ -301,7 +301,7 @@ h2 {
 }
 .price-products {
   width: 100%;
-  max-width: 200px;
+  max-width: 300px;
   margin-top: 20px;
   display: flex;
   justify-content: center;
@@ -321,4 +321,7 @@ h2 {
 .product p {
   color: white;
   font-size: 20px;
+  text-align: center;
+  max-width: 100px;
+  width: 100%;
 }
