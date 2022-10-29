@@ -233,5 +233,8 @@ body {
     flex-direction: column;
     gap: 10px;
   }
+  .counter-box {
+    height: 280px;
+  }
 }
 /* ---------Counter------------- */
