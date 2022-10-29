@@ -224,4 +224,14 @@ body {
   background-color: green;
   box-shadow: 2px 2px 5px #083a03;
 }
+@media (max-width: 480px) {
+  .counter-btns {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
 /* ---------Counter------------- */
