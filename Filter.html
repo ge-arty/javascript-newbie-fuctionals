@@ -15,7 +15,7 @@
       </div>
       <div class="filter-btns">
         <button class="lth">Price:Low to High</button>
-        <button class="htl">Price:Hight to Low</button>
+        <button class="htl">Price:High to Low</button>
         <button class="a-z">Name:A-Z</button>
         <button class="z-a">Name:Z-A</button>
       </div>
@@ -23,29 +23,12 @@
         <h2>Choose price range:</h2>
         <div class="price-range-box">
           <p class="min">Min:</p>
-          <input class="inp-number" type="number" />
+          <input class="inp-number-min" value type="text" />
           <p class="max">Max:</p>
-          <input class="inp-number" type="number" />
+          <input class="inp-number-max" value type="text" />
           <button class="filter-btn">Filter</button>
         </div>
-        <div class="product-list">
-          <div class="product" data-sort="3">
-            <p class="product-name">Product name:Banana</p>
-            <p class="price">Product price:3$</p>
-          </div>
-          <div class="product" data-sort="2">
-            <p class="product-name">Product name: Apple</p>
-            <p class="price">Product price: 2$</p>
-          </div>
-          <div class="product" data-sort="0.8">
-            <p class="product-name">Product name:Melon</p>
-            <p class="price">Product price:0.8$</p>
-          </div>
-          <div class="product" data-sort="2.3">
-            <p class="product-name">Product name:Mango</p>
-            <p class="price">Product price:2.3$</p>
-          </div>
-        </div>
+        <div class="product-list"></div>
       </div>
     </div>
     <script src="./js/filter.js"></script>
