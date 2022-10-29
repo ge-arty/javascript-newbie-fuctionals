@@ -267,3 +267,58 @@ input[type="text" i] {
   padding: 0;
 }
 /* ---------------Search--------------------- */
+
+.filter-btns {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.price-range {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+h2 {
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+.min {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+.max {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+.price-products {
+  width: 100%;
+  max-width: 200px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.product {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: column;
+  gap: 5px;
+  border: 5px solid #000;
+}
+.product p {
+  color: white;
+  font-size: 20px;
+}
