@@ -1,3 +1,4 @@
+// ---------------------Main
 let palette = document.querySelector(".palette-btn")
 let body = document.querySelector("body")
 palette.addEventListener("click",function(){
@@ -5,3 +6,7 @@ palette.addEventListener("click",function(){
    console.log(randomColor)
    body.style.backgroundColor = "#" + randomColor
 })
+
+
+
+
