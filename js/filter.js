@@ -25,13 +25,17 @@ function addToProductList(name, price) {
       </div>`;
   productList.innerHTML += productMarkup;
 }
-
 function regenerate(prods) {
   productList.innerHTML = "";
   for (let i = 0; i < prods.length; i++) {
     addToProductList(prods[i][0], prods[i][1]);
   }
 }
+function init() {
+  regenerate(products);
+}
+
+init();
 
 // ----------------სორტირების ფუნქცია low to High
 lthBtn.addEventListener("click", function () {
@@ -86,9 +90,3 @@ FilterBtn.addEventListener("click", function () {
   const filteredByPrice = products.filter((p) => p[1] >= min && p[1] <= max);
   regenerate(filteredByPrice);
 });
-// ---------------პროდუქტების გენერირებისთვის ვწერთ ამ ფუნქციას
-function init() {
-  regenerate(products);
-}
-
-init();
