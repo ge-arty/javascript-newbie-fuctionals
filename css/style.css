@@ -10,7 +10,7 @@ body {
   border: 20px solid rgb(228, 226, 153);
   margin-top: 50px;
   border-radius: 60px;
-  height: 920px;
+  height: 100%;
 }
 .header {
   width: 100%;
@@ -50,6 +50,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 50px;
 }
 .main-text {
   font-size: 50px;
@@ -117,7 +118,7 @@ body {
     gap: 15px;
   }
   .container {
-    height: 990px;
+    height: 100%;
   }
 }
 
@@ -200,6 +201,12 @@ body {
 }
 .counter-btns {
   margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 .decrease {
   width: 150px;
@@ -244,7 +251,8 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin-top: 200px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 #search-input {
   height: 30px;
@@ -278,6 +286,7 @@ input[type="text" i] {
 }
 .price-range {
   margin-top: 20px;
+  margin-bottom: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -312,16 +321,60 @@ h2 {
 .product {
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  flex: column;
   gap: 5px;
   border: 5px solid #000;
 }
 .product p {
   color: white;
   font-size: 20px;
-  text-align: center;
   max-width: 100px;
   width: 100%;
+}
+/* ------Zoom-------- */
+.picture-content {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+  gap: 20px;
+}
+.picture {
+  width: 15%;
+  border-radius: 15px;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
+.picture1 {
+  background: url("../images/pexels-carlos-oliva-3586966.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.picture2 {
+  background: url("../images/pexels-maxime-francis-2246476.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.picture3 {
+  background: url("../images/pexels-piccinng-3075993.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.picture4 {
+  background: url("../images/pexels-roberto-nickson-2559941.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.picture5 {
+  background: url("../images/pexels-benjamin-suter-3617500.jpg");
+  background-size: cover;
+  background-position: center;
 }

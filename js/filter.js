@@ -92,7 +92,3 @@ function init() {
 }
 
 init();
-//   const min = 10;
-//   const max = 50;
-//   const filteredByPrice = products.filter(p => p[1] > min && p[1] < max);
-//   regenerate(filteredByPrice);
