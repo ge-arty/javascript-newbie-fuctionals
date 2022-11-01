@@ -467,3 +467,38 @@ h2 {
   }
 }
 /* ---------Interval--------- */
+.math-container {
+  height: 400px;
+  width: 100%;
+  border-radius: 15px;
+  background-color: #072d50;
+  margin: 40px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.time {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+.math-box {
+  width: 80%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #11518d;
+  border-radius: 30px;
+}
+.answer-true {
+  display: none;
+}
+.answer-false {
+  display: none;
+}
+.out-of-time {
+  display: none;
+}
