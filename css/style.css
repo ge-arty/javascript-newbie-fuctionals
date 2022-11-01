@@ -121,6 +121,11 @@ body {
     height: 100%;
   }
 }
+@media (max-width: 480px) {
+  .main-text {
+    font-size: 30px;
+  }
+}
 
 /* -----------------Main-Page--------------------- */
 
@@ -449,9 +454,16 @@ h2 {
   height: 100%;
   padding: 20px 0;
 }
+.email {
+  width: 50px;
+}
 @media (max-width: 600px) {
+  .users p {
+    font-size: 16px;
+  }
   .email {
     display: block;
     text-align: center;
   }
 }
+/* ---------Interval--------- */
