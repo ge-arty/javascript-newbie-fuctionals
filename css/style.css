@@ -474,7 +474,7 @@ h2 {
   background-color: #072d50;
   margin: 40px 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
 }
@@ -482,23 +482,58 @@ h2 {
   text-align: center;
   color: white;
   font-size: 20px;
+  padding-bottom: 30px;
 }
 .math-box {
   width: 80%;
   height: 300px;
   display: flex;
+  justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
   gap: 10px;
   background-color: #11518d;
   border-radius: 30px;
 }
+.task {
+  color: white;
+  font-size: 20px;
+}
+.answer-text {
+  color: white;
+  font-size: 20px;
+  margin-bottom: -45px;
+}
+.sub-btn {
+  height: 30px;
+  width: 100px;
+  color: #000;
+  font-weight: bold;
+  font-size: 20px;
+}
 .answer-true {
   display: none;
+  text-align: center;
+  font-size: 20px;
+  color: rgb(10, 223, 10);
 }
 .answer-false {
   display: none;
+  text-align: center;
+  font-size: 20px;
+  color: rgb(223, 10, 10);
 }
 .out-of-time {
   display: none;
+  text-align: center;
+  font-size: 20px;
+  color: #000;
+  font-weight: bold;
+}
+.number {
+  height: 30px;
+  width: 100px;
+  color: #000;
+  font-weight: bold;
+  font-size: 20px;
 }
